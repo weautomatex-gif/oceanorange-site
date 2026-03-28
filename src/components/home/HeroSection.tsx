@@ -47,14 +47,14 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1, ease: [0.25, 0.1, 0.25, 1] }}
-            className="mb-6"
+            className="mb-6 mt-[-20px] md:mt-0"
           >
             <Image
               src="/logo.svg"
               alt="Ocean Orange"
               width={230}
               height={200}
-              className="h-28 md:h-40 lg:h-48 w-auto mx-auto"
+              className="h-36 md:h-40 lg:h-48 w-auto mx-auto"
               priority
             />
           </motion.div>
@@ -79,7 +79,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
             className="font-display font-bold italic text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-[0.95] max-w-5xl mx-auto bg-clip-text text-transparent"
             style={{ 
-              backgroundImage: 'linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 40%, #F28C38 100%)',
+              backgroundImage: 'linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 60%, #F28C38 100%)',
               textShadow: 'none',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
