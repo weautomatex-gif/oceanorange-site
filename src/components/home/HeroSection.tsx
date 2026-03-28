@@ -83,6 +83,8 @@ export default function HeroSection() {
               textShadow: 'none',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
+              backgroundClip: 'text',
+              color: 'transparent',
             }}
           >
             Where Sun Meets Sea
