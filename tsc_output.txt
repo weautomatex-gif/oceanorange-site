@@ -1,0 +1,3 @@
+﻿src/hooks/useCart.ts(9,10): error TS2459: Module '"@/context/CartContext"' declares 'CartContext' locally, but it is not exported.
+src/hooks/useProducts.ts(10,10): error TS2724: '"@/data/products"' has no exported member named 'mockProducts'. Did you mean 'products'?
+src/lib/utils.ts(4,39): error TS2307: Cannot find module 'clsx' or its corresponding type declarations.

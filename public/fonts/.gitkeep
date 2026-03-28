@@ -1,0 +1,3 @@
+// public/fonts/.gitkeep
+// Placeholder — place custom font files here (.woff2 format).
+// Reference these in src/lib/fonts.ts and src/app/globals.css.
